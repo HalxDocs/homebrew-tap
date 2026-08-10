@@ -8,6 +8,9 @@ dead-letter queues — from prebuilt release binaries.
 
 ```bash
 brew tap HalxDocs/homebrew-tap
+# Newer Homebrew refuses formulas from untrusted third-party taps —
+# approve when prompted, or run:
+brew trust halxdocs/tap
 brew install dlq-inspector
 ```
 
