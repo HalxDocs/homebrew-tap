@@ -12,10 +12,10 @@
 class DlqInspector < Formula
   desc "Inspect, analyze, and safely recover messages from dead-letter queues"
   homepage "https://github.com/HalxDocs/dlq_inspector"
-  url "https://github.com/HalxDocs/dlq_inspector/releases/download/v1.0.0/dlq-inspector_1.0.0_darwin_amd64.tar.gz"
-  sha256 "4b4d939acd1428b2a8fb8f820b17a00fff6c835716381f2eecdb11487b931914"
+  url "https://github.com/HalxDocs/dlq_inspector/releases/download/v1.1.0/dlq-inspector_1.1.0_darwin_amd64.tar.gz"
+  sha256 "4691c12359a397522c85cdd791c40214ca0e24bb355afe6df5ef696c367572b4"
   license "MIT"
-  version "1.0.0"
+  version "1.1.0"
 
   livecheck do
     url :stable
@@ -24,21 +24,21 @@ class DlqInspector < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/HalxDocs/dlq_inspector/releases/download/v1.0.0/dlq-inspector_1.0.0_darwin_arm64.tar.gz"
-      sha256 "7c0027b40b12f5421d7fe3c835ccafa97d7e6737efce0fa52610e61c0cf32560"
+      url "https://github.com/HalxDocs/dlq_inspector/releases/download/v1.1.0/dlq-inspector_1.1.0_darwin_arm64.tar.gz"
+      sha256 "daf49eef3b88301dc3bf8f825bfbcd426812d272f02d8a9a86a7b8b477fba60d"
     else
-      url "https://github.com/HalxDocs/dlq_inspector/releases/download/v1.0.0/dlq-inspector_1.0.0_darwin_amd64.tar.gz"
-      sha256 "4b4d939acd1428b2a8fb8f820b17a00fff6c835716381f2eecdb11487b931914"
+      url "https://github.com/HalxDocs/dlq_inspector/releases/download/v1.1.0/dlq-inspector_1.1.0_darwin_amd64.tar.gz"
+      sha256 "4691c12359a397522c85cdd791c40214ca0e24bb355afe6df5ef696c367572b4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/HalxDocs/dlq_inspector/releases/download/v1.0.0/dlq-inspector_1.0.0_linux_arm64.tar.gz"
-      sha256 "c42f613aaa7910d10637ca3e0111f3cea92b6be77821ccf364c59bf980d722d1"
+      url "https://github.com/HalxDocs/dlq_inspector/releases/download/v1.1.0/dlq-inspector_1.1.0_linux_arm64.tar.gz"
+      sha256 "1810b676167a94f95cc9593cd22cf29f1748ddafbe97e900d2b7c74604c89ea7"
     else
-      url "https://github.com/HalxDocs/dlq_inspector/releases/download/v1.0.0/dlq-inspector_1.0.0_linux_amd64.tar.gz"
-      sha256 "d4b5f4a2dd8a1b962bfdd03945a93fb55939ea6559748043124c55d095908bb7"
+      url "https://github.com/HalxDocs/dlq_inspector/releases/download/v1.1.0/dlq-inspector_1.1.0_linux_amd64.tar.gz"
+      sha256 "828f53c3b826f3d4be006c175995f99464c1d438dcb33fa2e25326c07cbfcc4b"
     end
   end
 
